@@ -1,0 +1,48 @@
+node	, (.),	項	node
+mfrac	\frac{, 0, }{, 1, }	分子,分母	generics fraction
+mfenced	⠷, (.), ⠾	項	generics parentheses
+msqrt	\sqrt{, (.), }	項	square root
+mroot	\sqrt[, 1, ]{, 0, }	根號內,開方數	root
+math	, (.),	項	math
+msubsup	, 0, _{, 1, }^{, 2, }	主符號,下標,上標	symbol have subscript and supscript
+msub	, 0, _{, 1, }	主符號,下標	symbol have subscript
+msup	, 0, ^{, 1, }	主符號,上標	symbol have supscript
+munderover	⠐, 0, ⠩, 1, ⠣, 2, ⠻	主符號,正下標,正上標	symbol have underscript and overscript
+munder	\underset{, 0, }{, 1, }	主符號,正下標	symbol have underscript
+mover	\overset{, 0, }{, 1, }	主符號,正上標	symbol have overscript
+mtable	⠞⠃⠇, (⠗.),	列	2-dimension table
+mtr	,(⠉.),	欄	table row
+mtd	,(.),	項	table cell
+mmultiscripts	,(.),	項	symbol have left mark
+mprescripts			
+none			
+from_to	, 0, _{, 1, }^{, 2, }	運算符,從,到	from ... to ... operator
+from	, 0, _{, 1, }	運算符,從	from ... operator
+to	, 0, ^{, 1, }	運算符,到	to ... operator
+power	, 0, ^{, 1, }	底數,指數	power
+absolute_value	\abs{, (.), }	項	absolute value
+determinant	\det{, (⠗.), }	列	determinant
+matrix	\begin{pmatrix}, (⠗.), \end{pmatrix}	列	matrix
+single_fraction	\frac{, 0, }{, 1, }	分子,分母	single fraction
+single_square_root	\sqrt{, (.), }	根號內	single square root
+SingleMsubsup	, 0, _{, 1, }^{, 2, }	主符號,下標,上標	single subscript and supscript
+SingleMsub	, 0, _{ , 1, }	主符號,下標	single subscript
+SingleMsup	, 0, ^{, 1, }	主符號,上標	single supscript
+SingleMunderover	⠐, 0, ⠩, 1, ⠣, 2, ⠻	主符號,正下標,正上標	single underscript and overscript
+SingleMunder	\underset{, 0, }{, 1, }	主符號,正下標	single underscript
+SingleMover	\overset{, 0, }{, 1, }	主符號,正上標	single overscript
+AddIntegerFractionType	⠸⠹, 0, ⠌, 1, ⠸⠼	分子,分母	add integer fraction
+NegativeSignType	⠤	負號	negative sign
+PositiveSignType	+	正號	positive sign
+SquarePowerType	, 0, ^2	底數,指數	square power
+CubePowerType	, 0, ^3	底數,指數	cube power
+LineType	⠐, 0, ⠣⠫⠪⠒⠒⠕⠻	主符號,正上標	line
+RayType	⠐, 0, ⠣⠫⠕⠻	主符號,正上標	ray
+LineSegmentType	⠐, 0, ⠣⠱⠻	主符號,正上標	line segment
+VectorSingleType	\vec{, 0, }	主符號,正上標	vector have one symbol
+VectorDoubleType	\vec{, 0, }	主符號,正上標	vector have two symbol
+ArrowOverSingleSymbolType	\vec{, 0, }	main,super	Arrow over a single symbol (vector in French notation)
+FrownType	⠐, 0, ⠣⠫⠁⠻	主符號,正上標	frown
+DegreeType	0,\degree	主符號,上標	degree
+LogType	\log{, 1, }	主符號,下標	log
+BinomialType	\binom{, 1, }{, 0, }	全,選	binomial
